@@ -1,0 +1,82 @@
+.navbar{
+	height: 50px;
+	margin: -8px -8px 0 -8px;
+	border-bottom: 1px solid grey;
+}
+
+.body{
+	min-height: 100%;
+	position: relative;
+}
+
+.video-player{
+	background-color: orange;
+	height: 360px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 70px;
+	width: 640px;
+}
+
+.sidebar{
+	float: left;
+	margin-left: 5px;
+	height: 720px;
+	width: 400px;
+	background-color: yellow;
+}
+
+.video.upnext{
+	background-color: red;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 100px;
+	width: 350px;
+}
+
+.video.sidebar{
+	background-color: pink;
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 500px;
+	width: 350px;
+}
+
+.video-details{
+	clear: both;
+	background-color: green;
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 70px;
+	height: 100px;
+	width: 640px;
+}
+
+.additional-video-details{
+	position: absolute;
+	background-color: blue;
+	margin-top: 500px;
+	margin-left: 70px;
+	height: 100px;
+	width: 640px;
+}
+
+.comments{
+	clear: both;
+	position: relative;
+	background-color: red;
+	margin-top: -10px;
+	margin-left: 70px;
+	height: 100px;
+	width: 640px;
+}
+
+.footer{
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	width: 100%;
+	margin-top: 5px;
+	background-color: blue;
+}
