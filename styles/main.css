@@ -1,8 +1,63 @@
+
+/*Navigation Bar*/
+
 .navbar{
 	height: 50px;
-	margin: -8px -8px 0 -8px;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-top: 10px;
 	border-bottom: 1px solid grey;
+
 }
+
+.logo-container{
+	margin-top: -3px;
+	height: 30px;
+	width: 200px;
+	margin-left: 30px;
+	display: inline-block;
+}
+
+
+.youtube-button{
+	display: inline-block;
+	height: 30px;
+	position: absolute;
+
+}
+
+.logo-masthead{
+	background: no-repeat url("../assets/pics/index/www-hitchhiker-vfl-Nn88d.png") -178px -227px;
+	background-size: auto;
+	width: 73px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.content-region{
+	position: absolute;
+	font-size: 13px;
+}
+
+
+/* Search Form */
+
+.search-form-container{
+	clear: both;
+	display: inline-block;
+	height: 50px;
+	width: 500px;
+}
+
+.search-btn{
+	float:right;
+}
+
+.search-box{
+	padding-right: 170px;
+}
+/* Body */
 
 .body{
 	min-height: 100%;
@@ -73,6 +128,8 @@
 	height: 170px;
 	width: 640px;
 }
+
+/* Footer */
 
 .footer{
 	clear: both;
